@@ -1,0 +1,179 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-image: url('img/fondo1.jpg');
+        /* Ruta a tu imagen */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .body2 {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        background-image: url('img/img.jpg');
+        /* Ruta a tu imagen */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+    }
+    
+    .body1 {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    
+    .center1 {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    nav {
+        background-color: #333;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: inline-block;
+    }
+    
+    nav a:hover {
+        background-color: #555;
+    }
+    
+    section {
+        padding: 60px 20px;
+        margin-top: 50px;
+    }
+    
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bloque {
+        background-color: #f4c542;
+        color: black;
+        padding: 10px;
+        width: 350px;
+        border-radius: 5px;
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .sub-bloque {
+        background-color: #b0b0b0;
+        padding: 10px;
+        width: 300px;
+        border-radius: 5px;
+        margin: 5px;
+        text-align: center;
+    }
+    
+    .sub-bloque-verde {
+        background-color: #2ecc71;
+        color: white;
+        padding: 10px;
+        width: 300px;
+        border-radius: 5px;
+        margin: 5px;
+        text-align: center;
+    }
+    
+    .texto {
+        background-color: white;
+        padding: 10px;
+        width: 280px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin: 5px;
+        text-align: left;
+    }
+    
+    .linea {
+        width: 2px;
+        height: 20px;
+        background-color: black;
+        margin: 0 auto;
+    }
+    
+    .oficina {
+        width: 600px;
+        height: 400px;
+        border: 2px solid black;
+        margin: 20px auto;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #f0f0f0;
+    }
+    
+    .area {
+        width: 45%;
+        height: 45%;
+        border: 1px solid gray;
+        margin: 10px;
+        padding: 10px;
+        background-color: white;
+        text-align: left;
+        font-size: 14px;
+        position: relative;
+    }
+    
+    .titulo {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .residuo {
+        font-size: 12px;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    
+    .aprovechable {
+        background-color: lightgreen;
+    }
+    
+    .no-aprovechable {
+        background-color: lightcoral;
+    }
+    
+    .peligroso {
+        background-color: yellow;
+    }
+    
+    .flujo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .proceso {
+        width: 250px;
+        padding: 15px;
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: lightblue;
+        font-weight: bold;
+    }
+    
+    .flecha {
+        font-size: 24px;
+        font-weight: bold;
+    }
